@@ -1,0 +1,16 @@
+{
+	"name": "adhithyaphotography",
+	"version": "1.0.0",
+	"description": "My photography website",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "^4.15.2",
+    	"express-handlebars": "^3.0.0",
+	    "body-parser": "*"
+	},
+	"author": "Adhithyakrishna",
+	"license": "ISC"
+}
