@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/adhithyaphotography', function(req, res) {
+router.get('/myGallery', function(req, res) {
 	res.render('photography', {
 		total: "62"
 	});
@@ -12,7 +12,7 @@ router.all('/error', function(req, res) {
 });
 
 router.all('*', function(req, res) {
-	res.redirect("/adhithyaphotography");
+	res.redirect("/myGallery");
 });
 
 module.exports = router;
